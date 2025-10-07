@@ -1,4 +1,6 @@
-// Implement queue using array
+// Implement linear queue using array
+// rear always empty location pe hga
+// front == rear == 0
 // if(front == rear), Q is empty
 #include <iostream>
 using namespace std;
@@ -78,6 +80,7 @@ public:
 
     int getSize()
     {
+        // rear always empty location pe hoga
         return (rear - front); // isme +1 isliye nhi hua kyuki rear empty location pe hota hai
     }
 };
