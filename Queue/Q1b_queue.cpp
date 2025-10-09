@@ -2,6 +2,8 @@
 // rear always empty location pe hga
 // front == rear == 0
 // if(front == rear), Q is empty
+// condition to check q is full :: 1>(front==0 && rear==(size-1))
+// 2>rear==front-1 3>combine two :: rear == (front-1) % (size-1)
 #include <iostream>
 using namespace std;
 
